@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Star, Video } from "lucide-react";
@@ -65,14 +64,6 @@ const TestimonialSection = () => {
                 <blockquote className="text-gray-300 flex-1">
                   "{testimonial.content}"
                 </blockquote>
-                
-                {/* Video play button placeholder */}
-                <div className="mt-6 bg-gradient-to-r from-tiktok-pink/20 to-tiktok-teal/20 p-3 rounded-lg flex items-center justify-center gap-2 cursor-pointer hover:from-tiktok-pink/30 hover:to-tiktok-teal/30 transition-all">
-                  <div className="w-8 h-8 rounded-full bg-tiktok-pink flex items-center justify-center">
-                    <Video className="w-4 h-4 text-white" />
-                  </div>
-                  <span className="text-white font-medium">Lihat Video Testimoni</span>
-                </div>
               </CardContent>
             </Card>
           ))}

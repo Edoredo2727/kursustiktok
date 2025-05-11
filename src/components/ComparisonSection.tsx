@@ -10,7 +10,7 @@ const ComparisonSection = () => {
   ];
 
   const ourCourse = [
-    "Roadmap 3 bulan STEP-BY-STEP",
+    "Roadmap 2 bulan STEP-BY-STEP",
     "Formula konten \"TANPA WAJAH\" yang terbukti",
     "Teknik iklan auto-profit tanpa mikir ROAS",
     "Modul manajemen keuangan \"Gulung Profit\"",

@@ -1,4 +1,3 @@
-
 import React from "react";
 import { ChevronRight, TrendingUp, ShoppingCart, Eye } from "lucide-react";
 
@@ -131,6 +130,101 @@ const ResultsShowcaseSection = () => {
               className="w-full h-auto object-cover transition-opacity opacity-90 group-hover:opacity-100"
             />
           </div>
+
+          {/* Showcase dari screenshot user */}
+          <div className="bg-white rounded-xl shadow-md overflow-hidden group hover:shadow-lg transition-all">
+            <div className="bg-black/5 p-3">
+              <div className="flex items-center justify-between">
+                <div className="flex items-center gap-2">
+                  <TrendingUp className="w-5 h-5 text-tiktok-pink" />
+                  <span className="font-semibold">GMV</span>
+                </div>
+                <span className="text-xs bg-black/5 px-2 py-1 rounded">Mei 2025</span>
+              </div>
+            </div>
+            <div className="p-6">
+              <div className="mb-4">
+                <h3 className="text-3xl font-bold text-gray-800">Rp43,0M</h3>
+                <div className="flex items-center gap-1 text-green-500 text-sm">
+                  <TrendingUp className="w-4 h-4" /> +131%
+                </div>
+              </div>
+              <div className="grid grid-cols-2 gap-4">
+                <div>
+                  <span className="text-gray-500 text-sm">Barang terjual</span>
+                  <p className="font-semibold text-xl">314</p>
+                  <span className="text-green-500 text-xs">+117%</span>
+                </div>
+                <div>
+                  <span className="text-gray-500 text-sm">Estimasi komisi</span>
+                  <p className="font-semibold text-xl">Rp2,4M</p>
+                  <span className="text-green-500 text-xs">+124%</span>
+                </div>
+                <div>
+                  <span className="text-gray-500 text-sm">Produk dilihat</span>
+                  <p className="font-semibold text-xl">244,2K</p>
+                  <span className="text-green-500 text-xs">+207%</span>
+                </div>
+                <div>
+                  <span className="text-gray-500 text-sm">Klik produk</span>
+                  <p className="font-semibold text-xl">13,6K</p>
+                  <span className="text-green-500 text-xs">+145%</span>
+                </div>
+              </div>
+            </div>
+            <img 
+              src="/screenshots/hasil-mei-2025.jpg"
+              alt="Data TikTok Affiliate Mei 2025"
+              className="w-full h-auto object-cover transition-opacity opacity-90 group-hover:opacity-100"
+            />
+          </div>
+
+          <div className="bg-white rounded-xl shadow-md overflow-hidden group hover:shadow-lg transition-all">
+            <div className="bg-black/5 p-3">
+              <div className="flex items-center justify-between">
+                <div className="flex items-center gap-2">
+                  <TrendingUp className="w-5 h-5 text-tiktok-pink" />
+                  <span className="font-semibold">GMV</span>
+                </div>
+                <span className="text-xs bg-black/5 px-2 py-1 rounded">April 2025</span>
+              </div>
+            </div>
+            <div className="p-6">
+              <div className="mb-4">
+                <h3 className="text-3xl font-bold text-gray-800">Rp252,7M</h3>
+                <div className="flex items-center gap-1 text-green-500 text-sm">
+                  <TrendingUp className="w-4 h-4" /> +163%
+                </div>
+              </div>
+              <div className="grid grid-cols-2 gap-4">
+                <div>
+                  <span className="text-gray-500 text-sm">Barang terjual</span>
+                  <p className="font-semibold text-xl">3,1K</p>
+                  <span className="text-green-500 text-xs">+179%</span>
+                </div>
+                <div>
+                  <span className="text-gray-500 text-sm">Estimasi komisi</span>
+                  <p className="font-semibold text-xl">Rp19,5M</p>
+                  <span className="text-green-500 text-xs">+164%</span>
+                </div>
+                <div>
+                  <span className="text-gray-500 text-sm">Produk dilihat</span>
+                  <p className="font-semibold text-xl">849,1K</p>
+                  <span className="text-green-500 text-xs">+41,00%</span>
+                </div>
+                <div>
+                  <span className="text-gray-500 text-sm">Klik produk</span>
+                  <p className="font-semibold text-xl">65,9K</p>
+                  <span className="text-green-500 text-xs">+150%</span>
+                </div>
+              </div>
+            </div>
+            <img 
+              src="/screenshots/hasil-april-2025.jpg"
+              alt="Data TikTok Affiliate April 2025"
+              className="w-full h-auto object-cover transition-opacity opacity-90 group-hover:opacity-100"
+            />
+          </div>
         </div>
         
         <div className="bg-gray-50 border border-gray-100 rounded-xl p-6 md:p-8">
@@ -154,11 +248,6 @@ const ResultsShowcaseSection = () => {
                 penjualan sebesar 88 Juta dalam sebulan. Ini hanya salah satu dari banyak kisah sukses
                 yang akan Anda alami dengan sistem kami.
               </p>
-              <div className="flex items-center gap-2">
-                <button className="flex items-center gap-2 text-tiktok-pink font-semibold hover:underline">
-                  Lihat semua testimonial <ChevronRight className="w-4 h-4" />
-                </button>
-              </div>
             </div>
           </div>
         </div>
