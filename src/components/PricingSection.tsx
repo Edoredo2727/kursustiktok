@@ -79,7 +79,7 @@ const PricingSection = () => {
                   </div>
                   
                   <div className="flex items-center gap-3 mb-6">
-                    <span className="text-gray-400 line-through text-lg">Rp 1.200.000</span>
+                    <span className="text-gray-400 line-through text-lg">Rp 399.000</span>
                     <span className="text-white text-3xl font-bold">Rp 99.000</span>
                   </div>
                   
