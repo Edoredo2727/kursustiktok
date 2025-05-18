@@ -38,6 +38,11 @@ const PricingSection = () => {
   ];
 
   const handleJoinClick = () => {
+    // @ts-expect-error: window.fbq is a global property injected by Facebook Pixel
+    if (window.fbq) {
+      // @ts-expect-error: window.fbq is a global property injected by Facebook Pixel
+      window.fbq('track', 'Lead');
+    }
     window.open("https://lynk.id/tiktokblueprint", "_blank");
   };
 
