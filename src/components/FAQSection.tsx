@@ -19,7 +19,7 @@ const FAQSection = () => {
     },
     {
       question: "Butuh modal besar untuk iklan?",
-      answer: "Tidak perlu. Kami ajarkan strategi \"Micro Budget\" mulai dari Rp 50.000/hari. Fokus kami adalah ROI positif, sehingga setiap rupiah yang Anda keluarkan akan menghasilkan lebih."
+      answer: "Tidak perlu. Kami ajarkan strategi \"Micro Budget\" mulai dari Rp 30.000/hari. Fokus kami adalah ROI positif, sehingga setiap rupiah yang Anda keluarkan akan menghasilkan lebih."
     },
     {
       question: "Berapa lama saya bisa mengakses materi?",
