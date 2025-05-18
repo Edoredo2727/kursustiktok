@@ -37,8 +37,8 @@ const PricingSection = () => {
     "Update seumur hidup"
   ];
 
-  const handleWhatsAppClick = () => {
-    window.open("https://wa.me/6283878865297?text=Halo%2C%20saya%20tertarik%20dengan%20TikTok%20Affiliate%20Blueprint", "_blank");
+  const handleJoinClick = () => {
+    window.open("https://lynk.id/tiktokblueprint", "_blank");
   };
 
   return (
@@ -100,10 +100,10 @@ const PricingSection = () => {
                   
                   <Button 
                     className="w-full py-6 text-lg bg-tiktok-pink hover:bg-tiktok-pink/80 text-white flex items-center justify-center gap-2"
-                    onClick={handleWhatsAppClick}
+                    onClick={handleJoinClick}
                   >
                     <MessageCircle className="w-5 h-5" />
-                    Hubungi via WhatsApp
+                    Gabung Sekarang
                   </Button>
                 </div>
                 

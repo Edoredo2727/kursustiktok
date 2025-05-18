@@ -3,8 +3,11 @@ import { Button } from "@/components/ui/button";
 import { TrendingUp, MessageCircle } from "lucide-react";
 
 const HeroSection = () => {
-  const handleWhatsAppClick = () => {
-    window.open("https://wa.me/6283878865297?text=Halo%2C%20saya%20tertarik%20dengan%20TikTok%20Affiliate%20Blueprint", "_blank");
+  const handleScrollToPricing = () => {
+    const section = document.getElementById("pricing");
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
   };
 
   return (
@@ -63,10 +66,10 @@ const HeroSection = () => {
       <div className="flex flex-col sm:flex-row gap-4 mb-8">
         <Button 
           className="bg-tiktok-pink hover:bg-tiktok-pink/80 text-white px-8 py-6 text-xl rounded-full tiktok-shadow flex items-center gap-2"
-          onClick={handleWhatsAppClick}
+          onClick={handleScrollToPricing}
         >
           <MessageCircle className="w-5 h-5" />
-          Hubungi via WhatsApp
+          Gabung Sekarang
         </Button>
       </div>
       
